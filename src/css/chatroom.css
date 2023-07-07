@@ -1,0 +1,107 @@
+.Header {
+    height: 8vh;
+    background-color: #2C3466 ;
+    position: relative;
+  }
+  
+  .Logo {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .LeftOptions {
+    display: flex;
+  }
+  
+  .RightOptions {
+    margin-left: auto;
+  }
+  
+  .Main {
+    overflow: hidden;
+    height: 86vh;
+    display: flex;
+  }
+  
+  .LeftMain {
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .VideosGroup {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #2C3466;
+  }
+  
+  .Video {
+    height: 300px;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    width: 400px;
+    object-fit: cover;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+  }
+  
+  .Options {
+    padding: 2rem;
+    display: flex;
+    background-color: #2C3466;
+  }
+  
+  .ButtonOptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C3466;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    width: 50px;
+    margin: 0 0.5rem;
+  }
+  
+  .RightMain {
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    background-color: #242f41;
+  }
+  
+  .ChatWindow {
+    flex-grow: 1;
+    overflow-y: scroll;
+  }
+  
+  .MessageContainer {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .MessagesContainer {
+    padding: 2rem;
+  }
+  
+  .Message {
+    margin-bottom: 2rem;
+  }
+  
+  .MessageInput {
+    height: 50px;
+    flex: 1;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding-left: 20px;
+    border: none;
+  }
+  
